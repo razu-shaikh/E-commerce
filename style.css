@@ -1,0 +1,311 @@
+body{
+    margin:auto 5%; 
+    background:pink; 
+}
+#header_wraffer{
+	background-color:silver;
+    width:100%;
+    height:auto; 
+    float:left; 
+}
+
+#logo{
+    background-color:silver;
+    width:12%;
+    float: left;
+	height:auto;
+	margin-right:0.3%;
+   
+}
+#logo img{
+    width:100%;
+    height:115px; 
+}
+
+#menu{
+  background-color:blue;
+    width:87.7%;
+    height:auto; 
+    float:left; 
+ }
+
+#menu ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#menu ul li{
+    float:right;
+    background:red;
+    list-style-type: none;
+    margin-right:30px; 
+	margin-top:12px;
+    font-size:20px;
+    padding:10px;
+    width:8%; 
+    transition:all 1s; 
+    border-radius:100px 100px ; 
+	text-align:center;
+}
+
+#menu ul li a{
+    text-decoration:none;
+	text-align:center;
+    color:white; 
+}
+
+
+#menu ul :hover{
+    background: green;
+    color:white; 
+    transition:all 1s;
+    border-radius:10px 10px ; 
+}
+#menu2{
+  background-color:blue;
+    width:87.7%;
+    height:auto; 
+    float:left; 
+ }
+
+#menu2 ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#menu2 ul li{
+    list-style-type:none;
+    margin-bottom:2px; 
+    width:3%; 
+	height:auto;
+	float:right;
+	margin-right:40px;
+	margin-top:13px;
+}
+
+#menu2 ul li a{
+    text-decoration:none;
+	text-align:center;
+    color:white; 
+	margin-right:20px;
+}
+#menu2 ul li a img{
+	width:100%;
+	height:auto;
+}
+
+#slider{
+    background:black;
+    width:100%;
+    height:auto; 
+    float:left; 
+    
+}
+#slider_left{
+	background-color:white;
+	width:49%;
+	height:396px;
+	float:left;
+	margin-top:4px;
+}
+#slider_left img{
+    width:100%;
+    height:396px; 
+}
+
+#slider_right{
+	background-color:white;
+	width:49%;
+	height:396px;
+	float:right;
+	margin-top:4px;
+}
+#slider_right img{
+    width:100%;
+    height:396px; 
+}
+#service_text{
+   background-color:silver;	
+   width:100%;
+   float:left; 
+   text-align:center; 
+   font-size:30px;   
+   
+}
+#service_text p{
+	border-bottom:2px solid black;
+	display:inline-block;
+	padding-bottom:5px;
+	
+   
+}
+
+#service_left{
+   background-color:white;	
+   width:33%;
+   height:auto;
+   float:left;
+   margin-right:0.5% 
+    
+}
+#service_left ul{
+    margin:20px;
+    padding:0px; 
+}
+
+#service_left ul li{
+    list-style-type:none;
+    margin-bottom:2px;
+    text-align:center; 
+}
+
+#service_left ul li a{
+    text-decoration:center;
+    color:blue;
+	font-size:20px;
+}
+#service_middle{
+   background-color:white;	
+   width:33%;
+   height:auto;
+   float:left; 
+    margin-right:0.5% 
+	
+}
+#service_middle ul{
+    margin:20px;
+    padding:0px; 
+}
+
+#service_middle ul li{
+    list-style-type:none;
+    margin-bottom:2px;
+    text-align:center; 
+}
+
+#service_middle ul li a{
+    text-decoration:center;
+    color:blue;
+	font-size:20px;
+}
+#service_right{
+   background-color:white;	
+   width:33%;
+   height:auto;
+   float:right; 
+	
+}
+#service_right ul{
+    margin:20px;
+    padding:0px; 
+}
+
+#service_right ul li{
+    list-style-type:none;
+    margin-bottom:2px;
+    text-align:center; 
+}
+
+#service_right ul li a{
+    text-decoration:center;
+    color:blue;
+	font-size:20px;
+}
+#notice{
+	background:white;
+    width:100%;
+    float:left;
+    font-size:20px;
+	margin-bottom:3px;
+	text-align:center;
+	margin-top:3px;
+	
+}
+#last{
+	background-color:blue;
+	width:100%;
+	float:left;
+	
+}
+#last_part{
+	background-color:blue;
+	width:25%;
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+	
+}
+#last_part ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#last_part ul li{
+    list-style-type:none;
+    margin-bottom:2px; 
+    font-size:20px;
+    padding:10px;
+    width:8%; 
+    text-align:center; 
+	float:left;
+	margin-right:4px;
+}
+
+#last_part ul li a{
+    text-decoration:none;
+    color:white; 
+}
+#last_part ul li a img{
+	width:100%;
+	height:auto;
+}
+
+
+#last_part1{
+	background-color:blue;
+	width:25%;
+	float:left;
+	margin-top:10px;
+	margin-left:50px;
+	font-size:20px;
+	
+}
+#last_part2{
+	background-color:blue;
+	width:40%;
+	float:left;
+	margin-left:20px;
+
+}
+#footer{
+    background:black;
+    width:100%;
+    height:auto; 
+    float:left; 
+    text-align: center;
+    color:white; 
+}
+.container {
+  padding: 16px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

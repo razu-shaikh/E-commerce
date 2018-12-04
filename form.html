@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+		<link href="form.css" rel="stylesheet" type="text/css"/>
+    </head>
+	<body>
+		 <section class="content">
+		   <header class = "header">
+		     <h2><script>document.write("Customer Information For Sending order");</script></h2>
+			</header>
+            <section class="maincontent">
+            <form name="myform" method="post" onsubmit="return validForm();">
+              <table>
+                 <tr> 
+                    <td>Name:</td>
+                      <td>
+                         <input type=""text" name="name"/> 
+					  </td>
+                 </tr>
+				 <tr> 
+                    <td>Email:</td>
+                      <td>
+                         <input type=""text" name="email"/> 
+					  </td>
+                 </tr>
+				 <tr> 
+                    <td>Phone Number:</td>
+                      <td>
+                         <input type="pnone" name="telephone"/> 
+					  </td>
+                 </tr>
+				 <tr> 
+                    <td>Select Services:</td>
+                      <td>
+                        <select name="service" value="">
+						<option>Select One</option>
+						 <option>Tour Package</option>
+						 <option>Online Ticketing</option>
+						 <option>Hotel Booking</option>
+						 <option>Visa Processing</option>
+						 <option>Daily Launch</option>
+						 <option>Party Foods</option>
+						 <option>Event Foods</option>
+						 <option>Foods Gift Box</option>
+						 <option>Software & Android Application</option>
+						 <option>Website & E-Commerce</option>
+						 </select>
+					  </td>
+                 </tr>
+				  <tr> 
+                    <td>Description:</td>
+                      <td>
+                         <input type="text" name="description"/> 
+					  </td>
+                 </tr>
+				 
+				  <tr> 
+                    <td></td>
+                      <td>
+                         <input type="submit"name="submit" value="submit"/> 
+                         <input type="reset" name="reset" value="refresh"/> 
+					  </td>
+                 </tr>
+				 <tr> 
+                    <td></td>
+                      <td>
+                        <div id="state"></div>
+					  </td>
+                 </tr>
+				
+              </table>
+            </form>	 
+			<script type="text/javascript">
+			  function validForm() {
+			  
+			  var name=document.myform.name;
+			  var email=document.myform.email;
+			  var phone=document.myform.telephone;
+			  var services=document.myform.service;
+			  var description=document.myform.description;
+			  
+			  if(name.value==""){
+			  document.getElementById("state").innerHTML="Please Enter Your Name";
+			  return false;
+			  }
+			   if(email.value==""){
+			  document.getElementById("state").innerHTML="Please Enter Your  Email";
+			  return false;
+			  }
+			   if(email.value.indexOf("@", 0)<0){
+			  document.getElementById("state").innerHTML="Please Enter Your valid Email";
+			  return false;
+			  }
+			   if(email.value.indexOf(".", 0)<0){
+			  document.getElementById("state").innerHTML="Please Enter Your valid Email";
+			  return false;
+			  }
+			  if(phone.value==""){
+			  document.getElementById("state").innerHTML="Please Enter Your PhoneNumber";
+			  return false;
+			  }
+			   if(services.selectedIndex <1){
+			  document.getElementById("state").innerHTML="Please select the service";
+			  return false;
+			  }
+			   if(description.value==""){
+			  document.getElementById("state").innerHTML="Descripe Your services ";
+			  return false;
+			  }
+			 
+			  }
+			</script>
+			
+          </section>
+		</section>
+		  
+	</body>
+</html>	
+	

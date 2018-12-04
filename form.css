@@ -1,0 +1,65 @@
+*{
+	margin:5px;
+	padding:0;
+    outline:0;
+ }
+.content{
+	background:#fofofo;
+	width:800px;
+	margin:0 auto;
+} 
+.maincontent{
+	background:#fff;
+	margin:10px;
+	min-height:450px;
+	padding:5px 10px;
+}
+.header,.footer{
+	text-align:center;
+	background:#ddd;
+	padding:10px:
+}
+button{
+	padding:2px 10px;
+	font-size:20px;
+	cursor:pointer;
+	margin-bottom:5px;
+	
+}
+table{
+	width:500px;
+	margin:0 auto;
+	padding:10px;
+	border:1px solid #ddd;
+	
+}
+input[type="text"]{
+	width:300px;
+	padding:5px 8px;
+	margin-bottom:5px;
+	height:100px;
+}
+input[type="button"],input[type="reset"],input[type="submit"]{
+	width:100px;
+	padding:5px;
+	cursor:pointer;
+}
+	
+#showValue{
+	width:300px;
+	padding:5px 8px;
+	height:200px;
+}
+select{
+	font-size:16px;
+	padding:3px;
+	cursor:pointer;  
+}
+#state{
+	color:red;
+}
+
+
+
+ 
+   
